@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Responsive Service Page with Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.bundle.min.js"></script>
+</head> 
+
+<body>
+
+    <nav class="navbar navbar-expand-md-navbar-dark bg-primary-subtle p-2">
+        <a class="navbar-brand" href="#">Our Services</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#it-support">IT Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hardware-issues">Hardware Issues</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#software-updates">Software Updates</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+            <div class="card" style="width: 200px;">
+                <img src="it_support.jpg" class="card-img-top"
+                alt="a laptop computer" class="img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">IT Support</h5>
+                        <p class="card-text">Problems with your device? Need help troubeshooting? Contact us and we may be able to help!</p>
+                        <a href="#" class="btn btn-primary">Click for More Info</a>
+                    </div>
+            </div>
+
+            <div class="card" style="width: 200px;">
+                <img src="hardware_resized.jpg" class="card-img-top"
+                alt="components inside of a computer" class="img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Hardware Issues</h5>
+                        <p class="card-text">Having technical difficulties? Your device acting up or no longer working? Bring it down and may be able to bring it back to life!</p>
+                        <a href="#" class="btn btn-primary">Click for More Info</a>
+                    </div>
+            </div>
+
+            <div class="card" style="width: 200px;">
+                <img src="software.jpg" class="card-img-top"
+                alt="a sample of code being written to build software" class="img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Updates</h5>
+                        <p class="card-text">Got questions about our software/updates? Contact us for all the info you need!</p>
+                        <a href="#" class="btn btn-primary">Click for More Info</a>
+                    </div>
+            </div>
+        
+        <div class="row">
+            <div class="col-4 bg-dark-subtle">
+                About Us
+            </div>
+            <div class="col-8 bg-body-secondary">
+                We started in 1995 and have been helping people with their technology problems ever since! We have seen it all from dial-up modems to smartphones! Need help? Give us a call!
+            </div>
+        </div>
+
+        </div>
+        
+            <div class="row-4 bg-warning">
+                Need help? Connect with us
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <label>First Name:</label>
+                <input>
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <label>Last Name:</label>
+                <input>
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <label>Email:</label>
+                <input>
+            </div>
+
+            <div class="row-4 bg-warning">
+                Please select the service(s) you need.
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <input class="it-support-input" type="radio" name="it-support" id="it-support">
+                <label class="it-support-label" for="it-support"></label>
+                <label>IT Support</label>
+                
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <input class="hardware-issues-input" type="radio" name="hardware-issues" id="hardware-issues">
+                <label class="hardware-issues-label" for="hardware-issues"></label>
+                <label>Hardware Issues</label>
+                
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <input class="software-updates-input" type="radio" name="software-updates" id="software-updates">
+                <label class="software-updates-label" for="software-updates"></label>
+                <label>Software Updates</label>
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <label>Please give us a quick description of the issue you are facing:</label>
+                <input>
+            </div>
+
+            <button>
+                Submit
+            </button>
+
+        </div>
+        
+
+    </div>
+</body>
+</html>
